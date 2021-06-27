@@ -36,8 +36,10 @@ $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   
   Install TurtleBot3 Packages with the following commands:
   
-  $ sudo apt-get install ros-kinetic-dynamixel-sdk
+$ sudo apt-get install ros-kinetic-dynamixel-sdk
+
 $ sudo apt-get install ros-kinetic-turtlebot3-msgs
+
 $ sudo apt-get install ros-kinetic-turtlebot3
 
 simulation with Gazebo simulation
@@ -45,7 +47,9 @@ simulation with Gazebo simulation
 Install Simulation Package with the following commands:
 
 $ cd ~/catkin_ws/src/
+
 $ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+
 $ cd ~/catkin_ws && catkin_make
 
 Launch Simulation World with the following commands:
@@ -53,16 +57,19 @@ Launch Simulation World with the following commands:
 1-Empty World
 
 $ export TURTLEBOT3_MODEL=burger
+
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 2-TurtleBot3 World
 
 $ export TURTLEBOT3_MODEL=waffle
+
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 3-TurtleBot3 House
 
 $ export TURTLEBOT3_MODEL=waffle_pi
+
 $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
 
 Operate TurtleBot3 with the following command:
@@ -74,6 +81,7 @@ SLAM Simulation
 Launch Simulation World with the following commands:
 
 $ export TURTLEBOT3_MODEL=burger
+
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 Run SLAM Node with the following command:
