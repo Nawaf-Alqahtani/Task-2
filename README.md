@@ -64,6 +64,8 @@ $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 2-TurtleBot3 World
 
+![turtle world](https://user-images.githubusercontent.com/85695324/123561999-904d4400-d7b4-11eb-8024-1ab880ace2f9.png)
+
 $ export TURTLEBOT3_MODEL=waffle
 
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
