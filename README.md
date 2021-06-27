@@ -72,6 +72,8 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 3-TurtleBot3 House
 
+![house world](https://user-images.githubusercontent.com/85695324/123562025-b7a41100-d7b4-11eb-9053-07ee9492cbf1.png)
+
 $ export TURTLEBOT3_MODEL=waffle_pi
 
 $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
