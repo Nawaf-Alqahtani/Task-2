@@ -1,7 +1,9 @@
 # Task-2-Use Turtlebot3 with SLAM approach to create and save a map
 
 Quick Start Guide to PC Setup 
+
 Installed ROS 1 on Remote PC with the following commands:
+
 $ sudo apt-get update
 $ sudo apt-get upgrade
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh
