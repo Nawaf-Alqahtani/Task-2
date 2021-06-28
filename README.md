@@ -56,7 +56,7 @@ Launch Simulation World with the following commands:
 
 1-Empty World
 
-![embty world](https://user-images.githubusercontent.com/85695324/123561762-fc2ead00-d7b2-11eb-8d15-25c112c24d89.png)
+![embty world 1](https://user-images.githubusercontent.com/85695324/123649284-4efb7980-d832-11eb-9228-8d5f87a11cd1.png)
 
 $ export TURTLEBOT3_MODEL=burger
 
