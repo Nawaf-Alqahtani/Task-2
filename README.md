@@ -94,7 +94,7 @@ Run SLAM Node with the following command:
 
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
-![gmapping turtle](https://user-images.githubusercontent.com/85695324/123562048-d904fd00-d7b4-11eb-9703-0270925c24ec.png)
+![gmapping 2](https://user-images.githubusercontent.com/85695324/123650318-245df080-d833-11eb-86f5-cd9e5446066d.png)
 
 Run Teleoperation Node with the following command:
 
