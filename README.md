@@ -102,4 +102,6 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 Save Map with the following command:
 
+![map turtlebot3](https://user-images.githubusercontent.com/85695324/123648694-d399c800-d831-11eb-8e95-d8f1a6dae9ce.png)
+
 $ rosrun map_server map_saver -f ~/map
